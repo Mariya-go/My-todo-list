@@ -9,4 +9,20 @@
 
 -->
 
+# Development strategy
+
+## html structure
+- [ ] add html structure
+
+## css styles
+- [ ] add css styles
+
+## src js
+- [ ] ad data
+- [ ] add init js file with general functionality
+- [ ] separate code and add component elements
+- [ ] add handlers
+- [ ] add listeners and import to init
+
+
 
