@@ -258,7 +258,7 @@ Grocery List
 .grocery-container {
   margin-top: 2rem;
   transition: var(--transition);
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 .show-container {
   visibility: visible;
@@ -325,4 +325,12 @@ Grocery List
 }
 .clear-btn:hover {
   color: var(--clr-red-dark);
+}
+
+.error1 {
+  display: block;
+  padding: 5px;
+  margin: 4px;
+  background-color: #ff0000;
+  border-radius: 12px;
 }

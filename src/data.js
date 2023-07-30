@@ -1,5 +1,5 @@
 // add initial tasks
-const data = {
+export const data = {
     tasks: [
         {
             id: 1,
@@ -11,13 +11,9 @@ const data = {
         },
         {
             id: 3,
-            text: 'take a rest, life is not only job'
+            text: 'take a rest, life is not only job',
         }
-    ]
+    ],
+    id: 4,
 }
 
-// add dom elements
-const dom = {
-    input: document.getElementById('grocery'),
-    submitBtn: document.getElementById("submit-btn")
-}
