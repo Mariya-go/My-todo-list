@@ -36,7 +36,10 @@ clone the repo and start using the stop watch.
 ## Code Examples
 
 ```js
-
+// update data
+const itemId = Number(editedItem.id);
+const findedTask = data.tasks.find((task) => task.id === itemId);
+findedTask.text = value;
 ```
 
 ## Features
@@ -54,4 +57,4 @@ To-do list:
 
 ## Status
 
-Project is: _in progress_
+Project is: _done_

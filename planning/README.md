@@ -1,6 +1,6 @@
 # My ToDo List
 
-## ## General info
+## General info
 
 > This is a simple application helps us create ToDo list for day
 
